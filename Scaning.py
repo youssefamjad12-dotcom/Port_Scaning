@@ -4,7 +4,7 @@ import errno
 
 def TCP_Scan(ip_addr, port_num):
     try:
-        # إنشاء Socket TCP
+
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
         # تحديد Timeout لمدة ثانية
